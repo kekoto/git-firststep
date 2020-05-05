@@ -32,7 +32,7 @@ async function getRequest() {
         msg: unko,
     };
 
-    await updateData({msg: unko}); //データ更新関数を実行
+    await updateData({saveData}); //データ更新関数を実行
   } catch (error) {
     console.error(error);
   }
